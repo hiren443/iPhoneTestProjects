@@ -518,7 +518,7 @@
 				<integer>56</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>335615080.54362899</real>
+			<real>335885547.06704599</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -529,7 +529,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 3:24 AM</string>
+		<string>Today at 6:32 AM</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -650,7 +650,7 @@
 		<string>IDEWorkspaceTabController_EDFA590C-4C5E-4431-BA07-7B99E98BD8E4</string>
 		<string>IDEWindowToolbarIsVisible</string>
 		<string>IDEWindowTabBarIsVisible</string>
-		<string>{{623, 569}, {1400, 952}}</string>
+		<string>{{1025, 563}, {1400, 950}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -823,7 +823,7 @@
 		<string>DVTIdentifier</string>
 		<string>DVTViewMagnitude</string>
 		<string></string>
-		<real>652</real>
+		<real>650</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -997,7 +997,7 @@
 		<string>IDECollapsedTypes</string>
 		<string>IDERecentFilteringEnabled</string>
 		<string>IDECollapsedGroups</string>
-		<string>{{0, 0}, {259, 810}}</string>
+		<string>{{0, 0}, {259, 808}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1605,7 +1605,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1140, 876}}</string>
+		<string>{{0, 0}, {1140, 874}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1671,8 +1671,8 @@
 		<string>console</string>
 		<string>variables</string>
 		<string>LayoutMode</string>
-		<string>IDEDebugArea_SplitView</string>
 		<string>IDEDebuggerAreaSplitView</string>
+		<string>IDEDebugArea_SplitView</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1786,7 +1786,7 @@
 			</array>
 		</dict>
 		<string>VariablesView</string>
-		<real>572</real>
+		<real>570</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1817,7 +1817,7 @@
 			</array>
 		</dict>
 		<string>ConsoleArea</string>
-		<real>567</real>
+		<real>569</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1886,7 +1886,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>572</real>
+		<real>570</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1916,7 +1916,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>567</real>
+		<real>569</real>
 		<dict>
 			<key>$class</key>
 			<dict>
