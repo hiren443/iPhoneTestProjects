@@ -1,741 +1,0 @@
-TView Friends
-v7
-r0
-t335795238.953601
-cCheck dependencies
-cProcessInfoPlistFile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Info.plist" View_Friends-Info.plist
-cCompileXIB "/Users/uraan/Documents/View Friends/MainWindow.xib"
-cCompileXIB "/Users/uraan/Documents/View Friends/FaceBookLogin.xib"
-cCpResource "build/Debug-iphonesimulator/View Friends.app/FBDialog.bundle" FBConnect/FBDialog.bundle
-cCompileXIB "/Users/uraan/Documents/View Friends/Home.xib"
-cProcessPCH /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch.gch View_Friends_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/main.o" "/Users/uraan/Documents/View Friends/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View_FriendsAppDelegate.o" "/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBookLogin.o" "/Users/uraan/Documents/View Friends/FaceBookLogin.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook.o" "/Users/uraan/Documents/View Friends/FBConnect/Facebook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBDialog.o" "/Users/uraan/Documents/View Friends/FBConnect/FBDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBLoginDialog.o" "/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBRequest.o" "/Users/uraan/Documents/View Friends/FBConnect/FBRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSString+SBJSON.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJSON.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonBase.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonParser.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonWriter.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Home.o" "/Users/uraan/Documents/View Friends/Home.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends" normal i386
-cGenerateDSYMFile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app.dSYM" "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends"
-cTouch "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.h
-c000000004E51F748000000000000014F
-t1313994568
-s335
-i<UIKit/UIKit.h>
-
-N/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m
-c000000004E539C2E0000000000000B3C
-t1314102318
-s2876
-i"View_FriendsAppDelegate.h"
-i"Home.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBConnect.h
-c000000004E37770900000000000002C2
-t1312257801
-s706
-i"Facebook.h"
-i"FBDialog.h"
-i"FBLoginDialog.h"
-i"FBRequest.h"
-i"SBJSON.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBDialog.bundle
-c000000004E3777060000000000000088
-t1312257798
-s136
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBDialog.h
-c000000004E3777090000000000001246
-t1312257801
-s4678
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBDialog.m
-c000000004E377709000000000000576F
-t1312257801
-s22383
-i"FBDialog.h"
-i"Facebook.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.h
-c000000004E377709000000000000056B
-t1312257801
-s1387
-i"FBDialog.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m
-c000000004E3777090000000000000BC4
-t1312257801
-s3012
-i"FBDialog.h"
-i"FBLoginDialog.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBRequest.h
-c000000004E3777090000000000000CEA
-t1312257801
-s3306
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/uraan/Documents/View Friends/FBConnect/FBRequest.m
-c000000004E3777090000000000002C39
-t1312257801
-s11321
-i"FBRequest.h"
-i"JSON.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/Facebook.h
-c000000004E3777090000000000000C94
-t1312257801
-s3220
-i"FBLoginDialog.h"
-i"FBRequest.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/Facebook.m
-c000000004E3777090000000000005284
-t1312257801
-s21124
-i"Facebook.h"
-i"FBLoginDialog.h"
-i"FBRequest.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/JSON.h
-c000000004E37770700000000000008F9
-t1312257799
-s2297
-i"SBJSON.h"
-i"NSObject+SBJSON.h"
-i"NSString+SBJSON.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.h
-c000000004E3777070000000000000A01
-t1312257799
-s2561
-i<Foundation/Foundation.h>
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m
-c000000004E377707000000000000089E
-t1312257799
-s2206
-i"NSObject+SBJSON.h"
-i"SBJsonWriter.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.h
-c000000004E3777070000000000000916
-t1312257799
-s2326
-i<Foundation/Foundation.h>
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m
-c000000004E377707000000000000087D
-t1312257799
-s2173
-i"NSString+SBJSON.h"
-i"SBJsonParser.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.h
-c000000004E3777070000000000000AED
-t1312257799
-s2797
-i<Foundation/Foundation.h>
-i"SBJsonParser.h"
-i"SBJsonWriter.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m
-c000000004E3777070000000000001ABC
-t1312257799
-s6844
-i"SBJSON.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.h
-c000000004E3777070000000000000B82
-t1312257799
-s2946
-i<Foundation/Foundation.h>
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m
-c000000004E3777070000000000000AC1
-t1312257799
-s2753
-i"SBJsonBase.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.h
-c000000004E3777070000000000000C0B
-t1312257799
-s3083
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m
-c000000004E37770700000000000036D0
-t1312257799
-s14032
-i"SBJsonParser.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.h
-c000000004E3777070000000000001140
-t1312257799
-s4416
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m
-c000000004E3777070000000000001F26
-t1312257799
-s7974
-i"SBJsonWriter.h"
-
-N/Users/uraan/Documents/View Friends/FaceBook.h
-c000000004E5384B00000000000000168
-t1314096304
-s360
-i<UIKit/UIKit.h>
-i"FBConnect.h"
-
-N/Users/uraan/Documents/View Friends/FaceBook.m
-c000000004E5387F20000000000001162
-t1314097138
-s4450
-i"FaceBook.h"
-i"FaceBookLogin.h"
-
-N/Users/uraan/Documents/View Friends/FaceBook.xib
-c000000004E51F84C000000000000500D
-t1313994828
-s20493
-
-N/Users/uraan/Documents/View Friends/FaceBookLogin.h
-c000000004E53866200000000000001AB
-t1314096738
-s427
-i<UIKit/UIKit.h>
-
-N/Users/uraan/Documents/View Friends/FaceBookLogin.m
-c000000004E5386930000000000000A32
-t1314096787
-s2610
-i"FaceBookLogin.h"
-
-N/Users/uraan/Documents/View Friends/FaceBookLogin.xib
-c000000004E5386D40000000000004F96
-t1314096852
-s20374
-
-N/Users/uraan/Documents/View Friends/Home.h
-c000000004E539C690000000000000161
-t1314102377
-s353
-i<UIKit/UIKit.h>
-i"FBConnect.h"
-
-N/Users/uraan/Documents/View Friends/Home.m
-c000000004E539C02000000000000113C
-t1314102274
-s4412
-i"Home.h"
-i"FaceBookLogin.h"
-
-N/Users/uraan/Documents/View Friends/Home.xib
-c000000004E539C1A0000000000004881
-t1314102298
-s18561
-
-N/Users/uraan/Documents/View Friends/MainWindow.xib
-c000000004E51F72F000000000000484C
-t1313994543
-s18508
-
-N/Users/uraan/Documents/View Friends/View_Friends_Prefix.pch
-c000000004E51F0A900000000000000C1
-t1313992873
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app
-t1314102438
-s306
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app.dSYM
-t1314102438
-s102
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/FBDialog.bundle
-t1314102437
-s102
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/FaceBook.nib
-t1313994835
-s1830
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/FaceBookLogin.nib
-t1314102437
-s1159
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Home.nib
-t1314102437
-s1830
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Info.plist
-t1314102436
-s611
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/MainWindow.nib
-t1314102437
-s989
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/PkgInfo
-t1314102436
-s8
-
-N/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends
-t1314102438
-s135432
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBDialog.o
-t1314102438
-s109704
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBLoginDialog.o
-t1314102438
-s43860
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBRequest.o
-t1314102438
-s43544
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook-82D0FF66.o
-t1314097141
-s52628
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook.o
-t1313994835
-s38052
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBookLogin.o
-t1314102438
-s48256
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook-B9AB8F58.o
-t1314095365
-s75496
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook.o
-t1314102438
-s75496
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Home.o
-t1314102438
-s52424
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSObject+SBJSON.o
-t1314102438
-s8300
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSString+SBJSON.o
-t1314102438
-s8220
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJSON.o
-t1314102438
-s20084
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonBase.o
-t1314102438
-s13216
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonParser.o
-t1314102438
-s35888
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonWriter.o
-t1314102438
-s25556
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View Friends.LinkFileList
-c000000004E539CA4000000000000076E
-t1314102436
-s1902
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View_FriendsAppDelegate.o
-t1314102438
-s54980
-
-N/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/main.o
-t1314102438
-s6296
-
-N/Users/uraan/Documents/View Friends/main.m
-c000000004E51F0A90000000000000167
-t1313992873
-s359
-i<UIKit/UIKit.h>
-
-N/var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch.gch
-t1314102438
-s10360536
-
-NView_Friends-Info.plist
-c000000004E51F0A9000000000000038D
-t1313992873
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies335795236#335795236#0(0"0(0#1#0"2526879680#0"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBDialog.o" "/Users/uraan/Documents/View Friends/FBConnect/FBDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.277752
-e335795238.521612
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBDialog.o
-x/Users/uraan/Documents/View Friends/FBConnect/FBDialog.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/uraan/Documents/View Friends/FBConnect/FBDialog.m335795238#335795238#0(0"0(0#0#56"/Users/uraan/Documents/View Friends/FBConnect/FBDialog.m2526879680#2021"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/FBDialog.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBDialog.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBLoginDialog.o" "/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.382623
-e335795238.465507
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBLoginDialog.o
-x/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m335795238#335795238#0(0"0(0#0#61"/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m2526879680#2031"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/FBLoginDialog.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBLoginDialog.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBRequest.o" "/Users/uraan/Documents/View Friends/FBConnect/FBRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.465639
-e335795238.616413
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBRequest.o
-x/Users/uraan/Documents/View Friends/FBConnect/FBRequest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/uraan/Documents/View Friends/FBConnect/FBRequest.m335795238#335795238#0(0"0(0#0#57"/Users/uraan/Documents/View Friends/FBConnect/FBRequest.m2526879680#2023"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/FBRequest.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FBRequest.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook-82D0FF66.o" "/Users/uraan/Documents/View Friends/FaceBook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335789941.792990
-e335789941.893523
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook-82D0FF66.o
-x/Users/uraan/Documents/View Friends/FaceBook.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/uraan/Documents/View Friends/FaceBook.m335789941#335789941#0(0"0(0#0#46"/Users/uraan/Documents/View Friends/FaceBook.m2526879680#2020"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FaceBook.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook-82D0FF66.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook.o" "/Users/uraan/Documents/View Friends/FaceBook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335687635.120908
-e335687635.213865
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook.o
-x/Users/uraan/Documents/View Friends/FaceBook.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/uraan/Documents/View Friends/FaceBook.m335687635#335687635#0(0"0(0#0#46"/Users/uraan/Documents/View Friends/FaceBook.m2526879680#2011"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FaceBook.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBook.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBookLogin.o" "/Users/uraan/Documents/View Friends/FaceBookLogin.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.192124
-e335795238.277614
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBookLogin.o
-x/Users/uraan/Documents/View Friends/FaceBookLogin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/uraan/Documents/View Friends/FaceBookLogin.m335795238#335795238#0(0"0(0#0#51"/Users/uraan/Documents/View Friends/FaceBookLogin.m2526879680#2021"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FaceBookLogin.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/FaceBookLogin.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook-B9AB8F58.o" "/Users/uraan/Documents/View Friends/FBConnect/Facebook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335788164.503288
-e335788165.027947
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook-B9AB8F58.o
-x/Users/uraan/Documents/View Friends/FBConnect/Facebook.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/uraan/Documents/View Friends/FBConnect/Facebook.m335788164#335788165#0(0"0(0#0#56"/Users/uraan/Documents/View Friends/FBConnect/Facebook.m2526879680#2030"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/Facebook.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook-B9AB8F58.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook.o" "/Users/uraan/Documents/View Friends/FBConnect/Facebook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.223726
-e335795238.382489
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook.o
-x/Users/uraan/Documents/View Friends/FBConnect/Facebook.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/uraan/Documents/View Friends/FBConnect/Facebook.m335795238#335795238#0(0"0(0#0#56"/Users/uraan/Documents/View Friends/FBConnect/Facebook.m2526879680#2021"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/Facebook.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Facebook.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Home.o" "/Users/uraan/Documents/View Friends/Home.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.812790
-e335795238.887344
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Home.o
-x/Users/uraan/Documents/View Friends/Home.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/uraan/Documents/View Friends/Home.m335795238#335795238#0(0"0(0#0#42"/Users/uraan/Documents/View Friends/Home.m2526879680#2003"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/Home.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/Home.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.521743
-e335795238.575663
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSObject+SBJSON.o
-x/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m335795238#335795238#0(0"0(0#0#68"/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m2526879680#2040"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/JSON/NSObject+SBJSON.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSObject+SBJSON.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSString+SBJSON.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.575812
-e335795238.631983
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSString+SBJSON.o
-x/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m335795238#335795238#0(0"0(0#0#68"/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m2526879680#2040"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/JSON/NSString+SBJSON.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/NSString+SBJSON.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJSON.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.616546
-e335795238.692980
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJSON.o
-x/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m335795238#335795238#0(0"0(0#0#59"/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m2526879680#2022"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJSON.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJSON.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonBase.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.632120
-e335795238.698794
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonBase.o
-x/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m335795238#335795238#0(0"0(0#0#63"/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m2526879680#2030"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonBase.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonBase.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonParser.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.693117
-e335795238.856588
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonParser.o
-x/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m335795238#335795238#0(0"0(0#0#65"/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m2526879680#2034"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonParser.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonParser.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonWriter.o" "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.698923
-e335795238.812657
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonWriter.o
-x/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m335795238#335795238#0(0"0(0#0#65"/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m2526879680#2034"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/FBConnect/JSON/SBJsonWriter.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/SBJsonWriter.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View_FriendsAppDelegate.o" "/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.138757
-e335795238.223472
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View_FriendsAppDelegate.o
-x/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m335795238#335795238#0(0"0(0#0#69"/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m2526879680#2049"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/Classes/View_FriendsAppDelegate.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View_FriendsAppDelegate.o"0#
-
-CCompileC "build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/main.o" "/Users/uraan/Documents/View Friends/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795238.137784
-e335795238.191867
-r1
-xCompileC
-xbuild/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/main.o
-x/Users/uraan/Documents/View Friends/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/uraan/Documents/View Friends/main.m335795238#335795238#0(0"0(0#0#42"/Users/uraan/Documents/View Friends/main.m2526879680#2003"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -include /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch -c "/Users/uraan/Documents/View Friends/main.m" -o "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/uraan/Documents/View Friends/FaceBook.xib"
-s335687634.630792
-e335687635.053309
-r1
-xCompileXIB
-x/Users/uraan/Documents/View Friends/FaceBook.xib
-lSLF07#2@23"CompileXIB FaceBook.xib335687634#335687635#0(0"0(0#0#48"/Users/uraan/Documents/View Friends/FaceBook.xib4742288#568"    cd "/Users/uraan/Documents/View Friends"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/FaceBook.nib" "/Users/uraan/Documents/View Friends/FaceBook.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/uraan/Documents/View Friends/FaceBookLogin.xib"
-s335795236.659903
-e335795237.201472
-r1
-xCompileXIB
-x/Users/uraan/Documents/View Friends/FaceBookLogin.xib
-lSLF07#2@28"CompileXIB FaceBookLogin.xib335795236#335795237#0(0"0(0#0#53"/Users/uraan/Documents/View Friends/FaceBookLogin.xib2526879680#578"    cd "/Users/uraan/Documents/View Friends"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/FaceBookLogin.nib" "/Users/uraan/Documents/View Friends/FaceBookLogin.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/uraan/Documents/View Friends/Home.xib"
-s335795237.111397
-e335795237.528413
-r1
-xCompileXIB
-x/Users/uraan/Documents/View Friends/Home.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/uraan/Documents/View Friends/Home.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on Home.
-lSLF07#2@19"CompileXIB Home.xib335795237#335795237#0(199"/* com.apple.ibtool.document.warnings *//Users/uraan/Documents/View Friends/Home.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on Home.1(22@99"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on Home.335795237#4294967295#0#0(6@44"/Users/uraan/Documents/View Friends/Home.xib335795098#4294967295#0#4294967295#0#0"0(0#0#44"/Users/uraan/Documents/View Friends/Home.xib2526879680#560"    cd "/Users/uraan/Documents/View Friends"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Home.nib" "/Users/uraan/Documents/View Friends/Home.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/uraan/Documents/View Friends/MainWindow.xib"
-s335795236.659125
-e335795237.110575
-r1
-xCompileXIB
-x/Users/uraan/Documents/View Friends/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib335795236#335795237#0(0"0(0#0#50"/Users/uraan/Documents/View Friends/MainWindow.xib2526879680#572"    cd "/Users/uraan/Documents/View Friends"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/MainWindow.nib" "/Users/uraan/Documents/View Friends/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource "build/Debug-iphonesimulator/View Friends.app/FBDialog.bundle" FBConnect/FBDialog.bundle
-s335795237.110684
-e335795237.133482
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/View Friends.app/FBDialog.bundle
-xFBConnect/FBDialog.bundle
-lSLF07#2@30"Copy FBConnect/FBDialog.bundle335795237#335795237#0(0"0(0#0#61"/Users/uraan/Documents/View Friends/FBConnect/FBDialog.bundle2526879680#485"    cd "/Users/uraan/Documents/View Friends"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/uraan/Documents/View Friends/FBConnect/FBDialog.bundle" "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app"0#
-
-CGenerateDSYMFile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app.dSYM" "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends"
-s335795238.919546
-e335795238.948635
-r1
-xGenerateDSYMFile
-x/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app.dSYM
-x/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends
-lSLF07#2@128"GenerateDSYMFile "build/Debug-iphonesimulator/View Friends.app.dSYM" "build/Debug-iphonesimulator/View Friends.app/View Friends"335795238#335795238#0(0"0(0#0#93"/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends2526879680#395"    cd "/Users/uraan/Documents/View Friends"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends" -o "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app.dSYM"0#
-
-CLd "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends" normal i386
-s335795238.887453
-e335795238.919414
-r1
-xLd
-x/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends
-xnormal
-xi386
-lSLF07#2@98"Link /Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends335795238#335795238#0(0"0(0#0#0"2526879680#920"    cd "/Users/uraan/Documents/View Friends"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" -filelist "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/Objects-normal/i386/View Friends.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/View Friends"0#
-
-CProcessInfoPlistFile "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Info.plist" View_Friends-Info.plist
-s335795236.654463
-e335795236.659027
-r1
-xProcessInfoPlistFile
-x/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Info.plist
-xView_Friends-Info.plist
-lSLF07#2@31"Process View_Friends-Info.plist335795236#335795236#0(0"0(0#0#59"/Users/uraan/Documents/View Friends/View_Friends-Info.plist2526879680#491"    cd "/Users/uraan/Documents/View Friends"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility View_Friends-Info.plist -genpkginfo "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app/Info.plist"0#
-
-CProcessPCH /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch.gch View_Friends_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s335795237.528545
-e335795238.137658
-r1
-xProcessPCH
-x/var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch.gch
-xView_Friends_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile View_Friends_Prefix.pch335795237#335795238#0(0"0(0#0#59"/Users/uraan/Documents/View Friends/View_Friends_Prefix.pch2526879680#1891"    cd "/Users/uraan/Documents/View Friends"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-generated-files.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-own-target-headers.hmap" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-all-target-headers.hmap" -iquote "/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/View Friends-project-headers.hmap" "-F/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator" "-I/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/include" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources/i386" "-I/Users/uraan/Documents/View Friends/build/View Friends.build/Debug-iphonesimulator/View Friends.build/DerivedSources" -c "/Users/uraan/Documents/View Friends/View_Friends_Prefix.pch" -o /var/folders/ML/MLMO7r4XG2mdV5+YX8CSF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/View_Friends_Prefix-ckbctpfwlhoxfnbbaidtqoghqybe/View_Friends_Prefix.pch.gch0#
-
-CTouch "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app"
-s335795238.948742
-e335795238.953559
-r1
-xTouch
-x/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app
-lSLF07#2@86"Touch /Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app335795238#335795238#0(0"0(0#0#0"2526879680#281"    cd "/Users/uraan/Documents/View Friends"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/uraan/Documents/View Friends/build/Debug-iphonesimulator/View Friends.app"0#
-
