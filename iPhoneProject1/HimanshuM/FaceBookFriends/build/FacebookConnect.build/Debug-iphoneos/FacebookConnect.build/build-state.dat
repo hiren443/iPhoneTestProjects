@@ -1,0 +1,1113 @@
+TFacebookConnect
+v7
+r0
+t335969329.509502
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FacebookConnect.app/ResourceRules.plist /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/Info.plist FacebookConnect-Info.plist
+cCompileXIB /Users/gaurangjogi/Desktop/FaceBookFriends/MainWindow.xib
+cCompileXIB /Users/gaurangjogi/Desktop/FaceBookFriends/RootViewController.xib
+cCpResource build/Debug-iphoneos/FacebookConnect.app/build-state.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+cCpResource build/Debug-iphoneos/FacebookConnect.app/build-state~.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+cCpResource build/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+cCpResource build/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk~.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+cCpResource build/Debug-iphoneos/FacebookConnect.app/FBDialog.bundle src/FBDialog.bundle
+cCpResource build/Debug-iphoneos/FacebookConnect.app/not_there.jpg src/not_there.jpg
+cProcessPCH /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch.gch FacebookConnect_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch.gch FacebookConnect_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/main.o /Users/gaurangjogi/Desktop/FaceBookFriends/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/Facebook.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBLoginDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBRequest.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSString+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonBase.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonParser.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonWriter.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/AsynchronousImageView.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnectAppDelegate.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/RootViewController.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/main.o /Users/gaurangjogi/Desktop/FaceBookFriends/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/Facebook.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBLoginDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBRequest.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect normal armv6
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSString+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonBase.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonParser.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonWriter.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/AsynchronousImageView.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnectAppDelegate.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/RootViewController.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect normal armv7
+cCreateUniversalBinary /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect normal "armv6 armv7"
+cGenerateDSYMFile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app.dSYM /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect
+cProcessProductPackaging "/Users/gaurangjogi/Library/MobileDevice/Provisioning Profiles/D6922B85-8DAC-4E20-8880-1D24F0B69B65.mobileprovision" /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision
+cTouch /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+cProcessProductPackaging /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent
+cCodeSign /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
+c000000004BF4D50E0000000000001A3B
+t1274336526
+s6715
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.h
+c000000004E536F0600000000000006FE
+t1314090758
+s1790
+i<Foundation/Foundation.h>
+i"FBConnect.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m
+c000000004E536F0400000000000005DF
+t1314090756
+s1503
+i"AsynchronousImageView.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.h
+c000000004E536F0300000000000001EE
+t1314090755
+s494
+i<UIKit/UIKit.h>
+i"RootViewController.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m
+c000000004E536F010000000000000B44
+t1314090753
+s2884
+i"FacebookConnectAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.h
+c000000004E55E798000000000000044F
+t1314252696
+s1103
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+i"AsynchronousImageView.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m
+c000000004E55F1600000000000001C92
+t1314255200
+s7314
+i"RootViewController.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/FacebookConnect_Prefix.pch
+c000000004E525EC10000000000000150
+t1314021057
+s336
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/MainWindow.xib
+c000000004E525EC10000000000006014
+t1314021057
+s24596
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/RootViewController.xib
+c000000004E525EC1000000000000380C
+t1314021057
+s14348
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+t1314276529
+s578
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app.dSYM
+t1314276529
+s102
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FBDialog.bundle
+t1314276527
+s102
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect
+t1314276529
+s289752
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/Info.plist
+t1314276527
+s847
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/MainWindow.nib
+t1314276527
+s1517
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/PkgInfo
+t1314276527
+s8
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/ResourceRules.plist
+t1314276527
+s485
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/RootViewController.nib
+t1314276527
+s418
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/build-state.dat
+t1314276527
+s139
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/build-state~.dat
+t1314276527
+s139
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision
+t1314276529
+s7606
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk.dep
+t1314276527
+s0
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk~.dep
+t1314276527
+s0
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/not_there.jpg
+t1314276527
+s2049
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent
+t1314276529
+s645
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/AsynchronousImageView.o
+t1314276528
+s45336
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBDialog.o
+t1314276528
+s103092
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBLoginDialog.o
+t1314276528
+s40652
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBRequest.o
+t1314276528
+s41508
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/Facebook.o
+t1314276528
+s73952
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect
+t1314276528
+s147020
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect.LinkFileList
+c000000004E5644AF00000000000007E9
+t1314276527
+s2025
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnectAppDelegate.o
+t1314276528
+s52940
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1314276528
+s8340
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSString+SBJSON.o
+t1314276528
+s8264
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/RootViewController.o
+t1314276528
+s72144
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJSON.o
+t1314276528
+s18520
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonBase.o
+t1314276528
+s12952
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonParser.o
+t1314276528
+s34568
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonWriter.o
+t1314276528
+s24752
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/main.o
+t1314276528
+s6492
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/AsynchronousImageView.o
+t1314276529
+s45084
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBDialog.o
+t1314276529
+s99492
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBLoginDialog.o
+t1314276528
+s40420
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBRequest.o
+t1314276529
+s40820
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/Facebook.o
+t1314276528
+s72864
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect
+t1314276529
+s138200
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect.LinkFileList
+c000000004E5644AF00000000000007E9
+t1314276527
+s2025
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnectAppDelegate.o
+t1314276529
+s52820
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1314276528
+s8296
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSString+SBJSON.o
+t1314276529
+s8220
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/RootViewController.o
+t1314276529
+s71572
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJSON.o
+t1314276529
+s18272
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonBase.o
+t1314276529
+s12828
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonParser.o
+t1314276529
+s32524
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonWriter.o
+t1314276529
+s24364
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/main.o
+t1314276528
+s6476
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/main.m
+c000000004E536F25000000000000014E
+t1314090789
+s334
+i<UIKit/UIKit.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBConnect.h
+c000000004E525EC100000000000002C2
+t1314021057
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.bundle
+c000000004E525EC10000000000000066
+t1314021057
+s102
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.h
+c000000004E525EC10000000000001246
+t1314021057
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m
+c000000004E525EC1000000000000576F
+t1314021057
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.h
+c000000004E525EC1000000000000056B
+t1314021057
+s1387
+i"FBDialog.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m
+c000000004E525EC10000000000000BC4
+t1314021057
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.h
+c000000004E525EC10000000000000CD7
+t1314021057
+s3287
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m
+c000000004E525EC10000000000002C9A
+t1314021057
+s11418
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.h
+c000000004E525EC10000000000000DBC
+t1314021057
+s3516
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m
+c000000004E5644040000000000005DB9
+t1314276356
+s23993
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/JSON.h
+c000000004E525EC100000000000008F9
+t1314021057
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.h
+c000000004E525EC10000000000000A01
+t1314021057
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m
+c000000004E525EC1000000000000089E
+t1314021057
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.h
+c000000004E525EC10000000000000916
+t1314021057
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m
+c000000004E525EC1000000000000087D
+t1314021057
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.h
+c000000004E525EC10000000000000AED
+t1314021057
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m
+c000000004E525EC10000000000001ABC
+t1314021057
+s6844
+i"SBJSON.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.h
+c000000004E525EC10000000000000B82
+t1314021057
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m
+c000000004E525EC10000000000000AC1
+t1314021057
+s2753
+i"SBJsonBase.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.h
+c000000004E525EC10000000000000C0B
+t1314021057
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m
+c000000004E525EC100000000000036D0
+t1314021057
+s14032
+i"SBJsonParser.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.h
+c000000004E525EC10000000000001140
+t1314021057
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m
+c000000004E525EC10000000000001F26
+t1314021057
+s7974
+i"SBJsonWriter.h"
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+c000000004E525EC1000000000000008B
+t1314021057
+s139
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+c000000004E525EC1000000000000008B
+t1314021057
+s139
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+c000000004E525EC10000000000000000
+t1314021057
+s0
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+c000000004E525EC10000000000000000
+t1314021057
+s0
+
+N/Users/gaurangjogi/Desktop/FaceBookFriends/src/not_there.jpg
+c000000004E525EC10000000000000801
+t1314021057
+s2049
+
+N/Users/gaurangjogi/Library/MobileDevice/Provisioning Profiles/D6922B85-8DAC-4E20-8880-1D24F0B69B65.mobileprovision
+c000000004E55D50B0000000000001DB6
+t1314247947
+s7606
+
+N/var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch.gch
+t1314276528
+s10294832
+
+N/var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch.gch
+t1314276528
+s9831984
+
+NFacebookConnect-Info.plist
+c000000004E5644AD000000000000041F
+t1314276525
+s1055
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335969327#335969327#0(0"0(0#1#0"8678833472#0"0#
+
+CCodeSign /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+s335969329.359893
+e335969329.509468
+r1
+xCodeSign
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+lSLF07#2@49"CodeSign build/Debug-iphoneos/FacebookConnect.app335969329#335969329#0(0"0(0#0#83"/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app8694860512#740"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Himanshu Mistry (2DLS5Y4HZQ)" --resource-rules=/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/ResourceRules.plist --entitlements /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/AsynchronousImageView.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.635657
+e335969328.736610
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/AsynchronousImageView.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m335969328#335969328#0(0"0(0#0#74"/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m8700660096#2014"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/AsynchronousImageView.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.340574
+e335969328.661960
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBDialog.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m335969328#335969328#0(0"0(0#0#57"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m8700535808#1984"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBDialog.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBLoginDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.341522
+e335969328.416883
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBLoginDialog.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m335969328#335969328#0(0"0(0#0#62"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m8699544224#1994"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBLoginDialog.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBRequest.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.391938
+e335969328.577056
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBRequest.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m335969328#335969328#0(0"0(0#0#58"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m8699229664#1986"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FBRequest.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/Facebook.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.339799
+e335969328.500505
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/Facebook.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m335969328#335969328#0(0"0(0#0#57"/Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m8701982976#1984"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/Facebook.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnectAppDelegate.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.662090
+e335969328.754353
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnectAppDelegate.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m335969328#335969328#0(0"0(0#0#79"/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m8699259104#2024"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnectAppDelegate.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.417019
+e335969328.478575
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m335969328#335969328#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m8698624000#2003"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSString+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.478881
+e335969328.550625
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m335969328#335969328#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m8697245888#2003"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/RootViewController.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.713716
+e335969328.906086
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/RootViewController.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m335969328#335969328#0(0"0(0#0#71"/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m8698377312#2008"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.500615
+e335969328.601579
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJSON.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m335969328#335969328#0(0"0(0#0#60"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m8694178528#1985"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJSON.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonBase.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.550751
+e335969328.635536
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m335969328#335969328#0(0"0(0#0#64"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m8689632224#1993"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonParser.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.577176
+e335969328.745791
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m335969328#335969328#0(0"0(0#0#66"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m8707521376#1997"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonWriter.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.601701
+e335969328.713576
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m335969328#335969328#0(0"0(0#0#66"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m8705504832#1997"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/main.o /Users/gaurangjogi/Desktop/FaceBookFriends/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969328.338933
+e335969328.391811
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/main.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/main.m335969328#335969328#0(0"0(0#0#49"/Users/gaurangjogi/Desktop/FaceBookFriends/main.m8702744192#1972"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/main.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/AsynchronousImageView.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969329.089711
+e335969329.192274
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/AsynchronousImageView.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m335969329#335969329#0(0"0(0#0#74"/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m8691370912#2014"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/AsynchronousImageView.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/AsynchronousImageView.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.754485
+e335969329.031743
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBDialog.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m335969328#335969329#0(0"0(0#0#57"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m8697238688#1984"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBDialog.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBLoginDialog.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.797707
+e335969328.884229
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBLoginDialog.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m335969328#335969328#0(0"0(0#0#62"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m8694297536#1994"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBLoginDialog.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBLoginDialog.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBRequest.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.884354
+e335969329.039705
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBRequest.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m335969328#335969329#0(0"0(0#0#58"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m8699679232#1986"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBRequest.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FBRequest.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/Facebook.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.745910
+e335969328.931494
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/Facebook.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m335969328#335969328#0(0"0(0#0#57"/Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m8685335648#1984"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/Facebook.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/Facebook.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnectAppDelegate.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969329.101290
+e335969329.192495
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnectAppDelegate.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m335969329#335969329#0(0"0(0#0#79"/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m8689178400#2024"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/FacebookConnectAppDelegate.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnectAppDelegate.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.931748
+e335969328.994052
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m335969328#335969328#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m8698268800#2003"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSObject+SBJSON.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSString+SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.971748
+e335969329.041194
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m335969328#335969329#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m8687072672#2003"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/NSString+SBJSON.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/RootViewController.o /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969329.175987
+e335969329.277044
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/RootViewController.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m335969329#335969329#0(0"0(0#0#71"/Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m8683768608#2008"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/Classes/RootViewController.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJSON.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.994189
+e335969329.089574
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJSON.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m335969328#335969329#0(0"0(0#0#60"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m8676788352#1985"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJSON.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJSON.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonBase.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969329.031863
+e335969329.101155
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m335969329#335969329#0(0"0(0#0#64"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m8704749312#1993"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonBase.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonParser.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969329.039879
+e335969329.207771
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m335969329#335969329#0(0"0(0#0#66"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m8699635744#1997"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonParser.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonWriter.o /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969329.041302
+e335969329.175862
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m335969329#335969329#0(0"0(0#0#66"/Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m8692085728#1997"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/src/JSON/SBJsonWriter.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/main.o /Users/gaurangjogi/Desktop/FaceBookFriends/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969328.736739
+e335969328.797571
+r1
+xCompileC
+xbuild/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/main.o
+x/Users/gaurangjogi/Desktop/FaceBookFriends/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/gaurangjogi/Desktop/FaceBookFriends/main.m335969328#335969328#0(0"0(0#0#49"/Users/gaurangjogi/Desktop/FaceBookFriends/main.m8697606752#1972"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -include /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch -c /Users/gaurangjogi/Desktop/FaceBookFriends/main.m -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/gaurangjogi/Desktop/FaceBookFriends/MainWindow.xib
+s335969327.435264
+e335969327.807516
+r1
+xCompileXIB
+x/Users/gaurangjogi/Desktop/FaceBookFriends/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335969327#335969327#0(0"0(0#0#57"/Users/gaurangjogi/Desktop/FaceBookFriends/MainWindow.xib8699272608#606"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/MainWindow.nib /Users/gaurangjogi/Desktop/FaceBookFriends/MainWindow.xib --sdk /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/gaurangjogi/Desktop/FaceBookFriends/RootViewController.xib
+s335969327.436003
+e335969327.767259
+r1
+xCompileXIB
+x/Users/gaurangjogi/Desktop/FaceBookFriends/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib335969327#335969327#0(0"0(0#0#65"/Users/gaurangjogi/Desktop/FaceBookFriends/RootViewController.xib8699226976#622"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/RootViewController.nib /Users/gaurangjogi/Desktop/FaceBookFriends/RootViewController.xib --sdk /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/FBDialog.bundle src/FBDialog.bundle
+s335969327.439724
+e335969327.457936
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/FBDialog.bundle
+xsrc/FBDialog.bundle
+lSLF07#2@24"Copy src/FBDialog.bundle335969327#335969327#0(0"0(0#0#62"/Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.bundle8697857248#502"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/gaurangjogi/Desktop/FaceBookFriends/src/FBDialog.bundle /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/ResourceRules.plist /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s335969327.427544
+e335969327.433484
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/ResourceRules.plist
+x/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@105"Copy /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist335969327#335969327#0(0"0(0#0#100"/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8701809056#540"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/build-state.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+s335969327.436723
+e335969327.442522
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/build-state.dat
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+lSLF07#2@82"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat335969327#335969327#0(0"0(0#0#120"/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat8698869568#560"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/build-state~.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+s335969327.437495
+e335969327.453121
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/build-state~.dat
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+lSLF07#2@83"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat335969327#335969327#0(0"0(0#0#121"/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat8698711616#561"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+s335969327.438252
+e335969327.457773
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk.dep
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+lSLF07#2@87"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep335969327#335969327#0(0"0(0#0#125"/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep8698621888#565"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk~.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+s335969327.438991
+e335969327.453286
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/facebook-ios-sdk~.dep
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+lSLF07#2@88"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep335969327#335969327#0(0"0(0#0#126"/Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep8698277888#566"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/gaurangjogi/Desktop/FaceBookFriends/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCpResource build/Debug-iphoneos/FacebookConnect.app/not_there.jpg src/not_there.jpg
+s335969327.440437
+e335969327.458083
+r1
+xCpResource
+xbuild/Debug-iphoneos/FacebookConnect.app/not_there.jpg
+xsrc/not_there.jpg
+lSLF07#2@22"Copy src/not_there.jpg335969327#335969327#0(0"0(0#0#60"/Users/gaurangjogi/Desktop/FaceBookFriends/src/not_there.jpg8697736736#500"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/gaurangjogi/Desktop/FaceBookFriends/src/not_there.jpg /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
+CCreateUniversalBinary /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect normal "armv6 armv7"
+s335969329.311881
+e335969329.314868
+r1
+xCreateUniversalBinary
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect
+xnormal
+xarmv6 armv7
+lSLF07#2@99"CreateUniversalBinary build/Debug-iphoneos/FacebookConnect.app/FacebookConnect normal "armv6 armv7"335969329#335969329#0(0"0(0#0#54"/Users/gaurangjogi/Desktop/FaceBookFriends/armv6 armv78698670688#620"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect -output /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect0#
+
+CGenerateDSYMFile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app.dSYM /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect
+s335969329.314975
+e335969329.354722
+r1
+xGenerateDSYMFile
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app.dSYM
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect
+lSLF07#2@119"GenerateDSYMFile build/Debug-iphoneos/FacebookConnect.app.dSYM build/Debug-iphoneos/FacebookConnect.app/FacebookConnect335969329#335969329#0(0"0(0#0#99"/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect8697494336#431"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/usr/bin/dsymutil /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/FacebookConnect -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app.dSYM0#
+
+CLd /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect normal armv6
+s335969328.906215
+e335969328.971563
+r1
+xLd
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect
+xnormal
+xarmv6
+lSLF07#2@149"Link /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect335969328#335969328#0(0"0(0#0#0"8698692992#971"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -filelist /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv6/FacebookConnect0#
+
+CLd /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect normal armv7
+s335969329.277128
+e335969329.311796
+r1
+xLd
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect
+xnormal
+xarmv7
+lSLF07#2@149"Link /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect335969329#335969329#0(0"0(0#0#0"8703981952#971"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -filelist /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/Objects-normal/armv7/FacebookConnect0#
+
+CProcessInfoPlistFile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/Info.plist FacebookConnect-Info.plist
+s335969327.428445
+e335969327.435194
+r1
+xProcessInfoPlistFile
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/Info.plist
+xFacebookConnect-Info.plist
+lSLF07#2@34"Process FacebookConnect-Info.plist335969327#335969327#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/FacebookConnect-Info.plist8700543808#632"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FacebookConnect-Info.plist -genpkginfo /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/ResourceRules.plist -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/Info.plist0#
+
+CProcessPCH /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch.gch FacebookConnect_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335969327.808406
+e335969328.338839
+r1
+xProcessPCH
+x/var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch.gch
+xFacebookConnect_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile FacebookConnect_Prefix.pch335969327#335969328#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/FacebookConnect_Prefix.pch8705048096#1858"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv7 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -c /Users/gaurangjogi/Desktop/FaceBookFriends/FacebookConnect_Prefix.pch -o /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-ceafbzpqtmfmcofktqaqcfvxfngd/FacebookConnect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch.gch FacebookConnect_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335969327.807629
+e335969328.320538
+r1
+xProcessPCH
+x/var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch.gch
+xFacebookConnect_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile FacebookConnect_Prefix.pch335969327#335969328#0(0"0(0#0#69"/Users/gaurangjogi/Desktop/FaceBookFriends/FacebookConnect_Prefix.pch8706209728#1858"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/include -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources/armv6 -I/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/DerivedSources -c /Users/gaurangjogi/Desktop/FaceBookFriends/FacebookConnect_Prefix.pch -o /var/folders/cS/cSnqNyLcFL4+wWYaVFEwk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookConnect_Prefix-cqzhscvbrpwwtsgxoetqtszsybyg/FacebookConnect_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/gaurangjogi/Library/MobileDevice/Provisioning Profiles/D6922B85-8DAC-4E20-8880-1D24F0B69B65.mobileprovision" /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision
+s335969329.354819
+e335969329.355819
+r1
+xProcessProductPackaging
+x/Users/gaurangjogi/Library/MobileDevice/Provisioning Profiles/D6922B85-8DAC-4E20-8880-1D24F0B69B65.mobileprovision
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision
+lSLF07#2@206"ProcessProductPackaging "/Users/gaurangjogi/Library/MobileDevice/Provisioning Profiles/D6922B85-8DAC-4E20-8880-1D24F0B69B65.mobileprovision" build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision335969329#335969329#0(0"0(0#0#108"/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision8697002368#467"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/gaurangjogi/Library/MobileDevice/Provisioning Profiles/D6922B85-8DAC-4E20-8880-1D24F0B69B65.mobileprovision" -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent
+s335969329.358314
+e335969329.359852
+r1
+xProcessProductPackaging
+x/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent
+lSLF07#2@210"ProcessProductPackaging /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent335969329#335969329#0(0"0(0#0#129"/Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent8695443264#497"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/gaurangjogi/Desktop/FaceBookFriends/build/FacebookConnect.build/Debug-iphoneos/FacebookConnect.build/FacebookConnect.xcent0#
+
+CTouch /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+s335969329.355872
+e335969329.358254
+r1
+xTouch
+x/Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app
+lSLF07#2@89"Touch /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app335969329#335969329#0(0"0(0#0#0"8696177216#302"    cd /Users/gaurangjogi/Desktop/FaceBookFriends    setenv PATH "/Developer/Xcode3.2.3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3.2.3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/gaurangjogi/Desktop/FaceBookFriends/build/Debug-iphoneos/FacebookConnect.app0#
+
