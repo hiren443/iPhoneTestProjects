@@ -101,7 +101,7 @@
    
        // [facebook authorize:nil delegate:self];
         NSArray* permissions =  [[NSArray arrayWithObjects:
-                         @"email",@"read_stream",@"publish_stream",@"user_about_me", nil] retain];
+                         @"email",@"read_stream",@"publish_stream",@"user_about_me",@"user_videos",@"offline_access",nil] retain];
         [facebook authorize:permissions delegate:self];  
         //[facebook authorize:nil delegate:self];  
         delegateLoginView = [delegateLogin retain];        

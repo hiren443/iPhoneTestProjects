@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "IconDownloader.h"
 #import <QuartzCore/QuartzCore.h>
-
+#import "Facebook.h"
 @class Loading;
-@interface FaceBookFriendsViewController : UITableViewController {
+@interface FaceBookFriendsViewController : UITableViewController <FBRequestDelegate>{
     
     NSMutableArray *faceBookFriendsNsMutableArray;
     //To Enable intelligent image loading 
@@ -23,6 +23,8 @@
     NSInteger _radioSelection;
     UIProgressView *myProgressIndicator;
     Loading *activity;
+    
+    NSMutableArray *arrSelectedFriends;
 
     
     }
@@ -42,5 +44,6 @@
 
 @property(nonatomic,retain)    Loading *activity;
 
+@property(nonatomic,retain)    NSMutableArray *arrSelectedFriends;
 
 @end

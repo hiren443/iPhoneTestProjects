@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Facebook.h"
 @class Loading;
-@interface ShareVideoViewController : UIViewController {
+@class Facebook;
+@interface ShareVideoViewController : UIViewController<FBRequestDelegate> {
     
     int index;
     NSString *urlpath;
     UIProgressView *myProgressIndicator;
     Loading *activity;
+    Facebook *facebook;
 }
 
 @property(nonatomic,assign)int index;
@@ -25,4 +27,6 @@
 @property(nonatomic,retain)    NSString *urlpath;
 @property(nonatomic,retain)UIProgressView *myProgressIndicator;
 @property(nonatomic,retain)Loading *activity;
+@property(nonatomic,retain)    Facebook *facebook;
+
 @end

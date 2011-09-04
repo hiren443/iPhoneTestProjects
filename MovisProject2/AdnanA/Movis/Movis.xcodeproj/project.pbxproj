@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4580157F1402D9C6004AE6AF /* facebookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4580157E1402D9C6004AE6AF /* facebookIcon.png */; };
 		458015891402DAF5004AE6AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458015881402DAF5004AE6AF /* QuartzCore.framework */; };
+		45D1316A1406E77A001B23D7 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D131681406E77A001B23D7 /* unchecked.png */; };
+		45D1316B1406E77A001B23D7 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D131691406E77A001B23D7 /* checked.png */; };
 		45D6F5B91400F0B300F520EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D6F5B81400F0B300F520EE /* UIKit.framework */; };
 		45D6F5BB1400F0B300F520EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D6F5BA1400F0B300F520EE /* Foundation.framework */; };
 		45D6F5BD1400F0B300F520EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D6F5BC1400F0B300F520EE /* CoreGraphics.framework */; };
@@ -66,6 +68,8 @@
 /* Begin PBXFileReference section */
 		4580157E1402D9C6004AE6AF /* facebookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookIcon.png; sourceTree = "<group>"; };
 		458015881402DAF5004AE6AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		45D131681406E77A001B23D7 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		45D131691406E77A001B23D7 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
 		45D6F5B41400F0B200F520EE /* Movis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D6F5B81400F0B300F520EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		45D6F5BA1400F0B300F520EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -344,6 +348,8 @@
 		45D6F6491400FAC200F520EE /* Art Assets */ = {
 			isa = PBXGroup;
 			children = (
+				45D131681406E77A001B23D7 /* unchecked.png */,
+				45D131691406E77A001B23D7 /* checked.png */,
 				45DD6A3A14031E87008C5436 /* Default.png */,
 				45DD6A3B14031E87008C5436 /* facebook_icon.png */,
 				45DD6A3C14031E87008C5436 /* icon.png */,
@@ -453,6 +459,8 @@
 				45DD6A3F14031E87008C5436 /* facebook_icon.png in Resources */,
 				45DD6A4014031E87008C5436 /* icon.png in Resources */,
 				45DD6A4114031E87008C5436 /* icon@2x.png in Resources */,
+				45D1316A1406E77A001B23D7 /* unchecked.png in Resources */,
+				45D1316B1406E77A001B23D7 /* checked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,16 +574,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Wientjes (V7WV3Z4N2J)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gregory Wientjes (V7WV3Z4N2J)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Movis/Movis-Prefix.pch";
 				INFOPLIST_FILE = "Movis/Movis-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "21D7892E-9FCC-4AD3-96FA-4FD9F8133147";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "21D7892E-9FCC-4AD3-96FA-4FD9F8133147";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -584,15 +592,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Wientjes (V7WV3Z4N2J)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gregory Wientjes (V7WV3Z4N2J)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Movis/Movis-Prefix.pch";
 				INFOPLIST_FILE = "Movis/Movis-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "21D7892E-9FCC-4AD3-96FA-4FD9F8133147";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "21D7892E-9FCC-4AD3-96FA-4FD9F8133147";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

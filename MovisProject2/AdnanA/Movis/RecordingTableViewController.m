@@ -260,6 +260,19 @@
     
     urlStringOfVideo =uniquePath;
     
+    NSUserDefaults *prefs =[NSUserDefaults standardUserDefaults];
+    [prefs setObject:[NSString stringWithFormat:@"%@",uniquePath] forKey:@"path"];
+    
+    
+    MovisAppDelegate *appDelegate=(MovisAppDelegate *)[[UIApplication sharedApplication]delegate];
+    
+    
+    
+    StorageUrlClassViewController *storage= (StorageUrlClassViewController*)[appDelegate.videoLinksNSMutableArray objectAtIndex:indexPath.row];
+    [prefs setObject:[NSString stringWithFormat:@"%@",storage.title] forKey:@"title"];
+    
+    
+    [prefs synchronize];
     
     if(activity == nil)
         activity = [[Loading alloc] initWithNibName:@"Loading" bundle:[NSBundle mainBundle]];
@@ -268,7 +281,7 @@
     [activity.activityIndicator startAnimating];
     
     
-    MovisAppDelegate *appDelegate = (MovisAppDelegate *)[[UIApplication sharedApplication] delegate];
+   // MovisAppDelegate *appDelegate = (MovisAppDelegate *)[[UIApplication sharedApplication] delegate];
     
     if (![appDelegate.facebook isSessionValid]) {
         
@@ -390,7 +403,7 @@
    */
     ShareVideoViewController *sharedController=[[ShareVideoViewController alloc]initWithNibName:@"ShareVideoViewController" bundle:nil];
     sharedController.index=selecctedIndex;
-    sharedController.urlpath=urlStringOfVideo;
+ //   sharedController.urlpath=[NSString stringWithFormat:@"%@", urlStringOfVideo];
     [self.navigationController pushViewController:sharedController animated:YES];
 }
 

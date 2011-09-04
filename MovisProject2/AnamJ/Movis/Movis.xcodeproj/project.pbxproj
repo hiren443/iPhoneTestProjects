@@ -591,16 +591,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Wientjes (V7WV3Z4N2J)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gregory Wientjes (V7WV3Z4N2J)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Movis/Movis-Prefix.pch";
 				INFOPLIST_FILE = "Movis/Movis-Info.plist";
 				PRODUCT_NAME = Movis;
-				PROVISIONING_PROFILE = "21D7892E-9FCC-4AD3-96FA-4FD9F8133147";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "21D7892E-9FCC-4AD3-96FA-4FD9F8133147";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -610,15 +610,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Gregory Wientjes";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gregory Wientjes";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Movis/Movis-Prefix.pch";
 				INFOPLIST_FILE = "Movis/Movis-Info.plist";
 				PRODUCT_NAME = Movis;
-				PROVISIONING_PROFILE = "3BFFD955-D52E-417D-ABE1-C18CAB97F93D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3BFFD955-D52E-417D-ABE1-C18CAB97F93D";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

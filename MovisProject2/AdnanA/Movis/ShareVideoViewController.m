@@ -14,8 +14,10 @@
 #import "JSON.h"
 #import "FaceBookFriendsViewController.h"
 #import "Loading.h"
+#import "Facebook.h"
+#import "MovisAppDelegate.h"
 @implementation ShareVideoViewController
-@synthesize index,urlpath,myProgressIndicator,activity;
+@synthesize index,urlpath,myProgressIndicator,activity,facebook;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -64,56 +66,65 @@
 {
 
     
+    
     if(activity == nil)
         activity = [[Loading alloc] initWithNibName:@"Loading" bundle:[NSBundle mainBundle]];
     
     [self.view insertSubview:activity.view aboveSubview:self.parentViewController.view];
     [activity.activityIndicator startAnimating];
-    
-    
 
     
-	NSURL *url = [NSURL URLWithString:@"https://graph-video.facebook.com/me/videos?"];
-    ASIFormDataRequest *newRequest = [ASIFormDataRequest requestWithURL:url];
+    MovisAppDelegate *appDelegate=(MovisAppDelegate*)[[UIApplication sharedApplication]delegate];
     
+    NSUserDefaults* pref = [NSUserDefaults standardUserDefaults];
     //NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
-
-	//NSString *uniquePath = [paths objectAtIndex:0];
-	
-    
-    MovisAppDelegate *appDelegate =(MovisAppDelegate *)[[UIApplication sharedApplication]delegate];
-    
-    StorageUrlClassViewController *storage=(StorageUrlClassViewController*)[appDelegate.videoLinksNSMutableArray objectAtIndex:index];
-    
-  //  uniquePath = [NSString stringWithFormat:@"%@/%@",uniquePath,storage.title];
-    NSURL *urlVideo = [NSURL fileURLWithPath:urlpath];
+  //  NSString *uniquePath = [paths objectAtIndex:0];
+   // uniquePath = [NSString stringWithFormat:@"%@/%@",uniquePath,app.nameVideo];
+    NSURL *urlVideo = [NSURL fileURLWithPath:[pref objectForKey:@"path"]];
     
     NSData *dataVideo = [NSData dataWithContentsOfURL:urlVideo];
-    [newRequest addFile:dataVideo withFileName:@"test.mp4" andContentType:@"multipart/form-data" forKey:@"post_url"];
-    NSString *str = [[storage.title componentsSeparatedByString:@"."] objectAtIndex:0];
-    
-    
-    [newRequest setPostValue:str forKey:@"title"];
-    //[newRequest setPostValue:[NSString stringWithFormat:@"http://itunes.apple.com/us/app/movis/id455509395?ls=1&mt=8%@",storage.title] forKey:@"description"];
-	[newRequest setPostValue:storage.title forKey:@"message"];
-	
-	[newRequest setPostValue:[appDelegate.facebook.accessToken componentsSeparatedByString:@"&"]
-                      forKey:@"access_token"];
-    [newRequest setDidFinishSelector:@selector(uploadVideoFinished:)];
-    [newRequest setDidFailSelector:@selector(uploadVideoFail:)];
-    
-    
-    myProgressIndicator=[[UIProgressView alloc]initWithProgressViewStyle:UIProgressViewStyleDefault];
-    
-    myProgressIndicator.frame=CGRectMake(10, 260, 300, 14);
-    [self.view addSubview:myProgressIndicator];
-    
-    
-    [newRequest setUploadProgressDelegate:myProgressIndicator];
+    NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                   dataVideo, @"video.mp4",
+                                   @"video/quicktime", @"contentType",
+                                   [[[pref objectForKey:@"title"] componentsSeparatedByString:@"."] objectAtIndex:0], @"title",
+                                   @"http://itunes.apple.com/us/app/movis/id455509395?ls=1&mt=8", @"description",
+                                   nil];
+    [appDelegate.facebook requestWithGraphPath:@"me/videos"
+                         andParams:params
+                     andHttpMethod:@"POST"
+                       andDelegate:self];
 
-    [newRequest setDelegate:self];
-    [newRequest startAsynchronous];
-	
+   
+}
+
+
+- (void)request:(FBRequest *)request didLoad:(id)result {
+    NSLog(@"result %@",result );
+
+    
+    
+    [activity.activityIndicator stopAnimating];
+    [activity.view removeFromSuperview];
+
+    UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Video uploaded successfully" 
+                                                              message:@""
+                                                             delegate:nil 
+                                                    cancelButtonTitle:@"OK"
+                                                    otherButtonTitles:nil] autorelease];
+                [alert show];
+    
+    
+    [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:1] animated:YES];           
+}
+
+- (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
+    NSLog(@"Failed with error: %@", [error localizedDescription]);
+    UIAlertView *av = [[[UIAlertView alloc] initWithTitle:@"Video could not be uploaded" 
+                                                  message:[NSString stringWithFormat:@"%@",[error localizedDescription]]
+                                                 delegate:nil 
+                                        cancelButtonTitle:@"OK"
+                                        otherButtonTitles:nil] autorelease];
+    [av show];
 }
 
 
